@@ -1,0 +1,42 @@
+{
+  "benchmark": "MITRE_ATTCK_Lab_Results",
+  "project": "L_TRLX",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_TRLX",
+    "slug": "carperai/trlx",
+    "commit": "3340c2f3a56d",
+    "tracked_files": 151,
+    "source_lines": 17627,
+    "licence": "MIT",
+    "size_mb": 1.69
+  },
+  "inputs_hash": "1df866809ec35cca7e289ff3e3ce7747bec5afed40a18e50f604062a77082783",
+  "outputs": {
+    "results_file": "TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\OFFICIAL_BENCHMARKS\\MITRE_ATTCK_Lab_Results\\results.json",
+    "results_sha256": "d3c24658633631be63b819ce2224b5d3127432646a2900e1ba6f3f9ca8b163ff"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/MITRE_ATTCK_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

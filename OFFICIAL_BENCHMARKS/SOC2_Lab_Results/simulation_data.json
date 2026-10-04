@@ -1,0 +1,21 @@
+{
+  "benchmark": "SOC2_Lab_Results",
+  "project": "L_TRLX",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 544106517,
+    "simulated_inference_latency_ms": 21.0,
+    "simulated_throughput_samples_per_sec": 47.6,
+    "simulated_accuracy": 0.8488,
+    "simulated_avg_token_count": 50,
+    "simulated_memory_mb": 15.8,
+    "simulation_basis": {
+      "source_lines": 17627,
+      "tracked_files": 151,
+      "has_tests": true,
+      "has_ci": true,
+      "size_mb": 1.69
+    }
+  }
+}

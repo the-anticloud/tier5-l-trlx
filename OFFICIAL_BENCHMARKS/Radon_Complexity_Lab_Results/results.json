@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_TRLX",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.0476190476190474
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.0476190476190474,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\architext.py\n    F 7:0 reward_fn - A (2)\n    F 30:0 main - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\ilql_sentiments.py\n    F 18:0 main - A (2)\n    F 13:0 get_positive_score - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\ilql_sentiments_t5.py\n    F 91:0 main - A (2)\n    C 78:0 LengthSampler - A (2)\n    F 20:0 get_positive_score - A (1)\n    M 83:4 LengthSampler.__init__ - A (1)\n    M 87:4 LengthSampler.__call__ - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\nemo_ilql_inference.py\n    F 32:0 find_checkpoints - A (2)\n    F 38:0 main - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\nemo_ilql_sentiments.py\n    F 10:0 get_positive_score - A (1)\n    F 18:0 main - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\nemo_ppo_inference.py\n    F 30:0 main - A (4)\n    F 24:0 find_checkpoints - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\nemo_ppo_sentiments.py\n    F 26:0 main - A (5)\n    F 21:0 get_positive_score - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\nemo_sft_sentiments.py\n    F 21:0 main - A (3)\n    F 16:0 get_positive_score - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORL",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\setup.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\architext.py - A (85.60)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\ilql_sentiments.py - A (67.62)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_TRLX\\UPSTREAM\\examples\\ilql_sentiments_t5.py - A (60.69)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_E"
+  }
+}

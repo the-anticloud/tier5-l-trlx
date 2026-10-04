@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_TRLX",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "carperai/trlx",
+  "commit": "3340c2f3a56d",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 47.58,
+      "min": 45.02,
+      "max": 49.95,
+      "all": [
+        49.95,
+        46.67,
+        49.25,
+        47.0,
+        45.02
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_TRLX (carperai/trlx) \u2014 151 files, 17627 source lines, licence MIT, primary language ['Python']",
+      "token_count": 35,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "tr",
+        "##l",
+        "##x",
+        "(",
+        "carp",
+        "##era",
+        "##i",
+        "/",
+        "tr",
+        "##l",
+        "##x",
+        ")",
+        "\u2014",
+        "151",
+        "files",
+        ",",
+        "1762"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5887,
+      "classification_latency_ms": 222.1,
+      "status": "PASS"
+    }
+  }
+}
